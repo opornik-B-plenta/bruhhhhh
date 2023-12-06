@@ -7,7 +7,7 @@ const loadMore = () => {
     const loading = document.getElementById('load');
     loading.style.display = 'block';
     setTimeout(() => {
-        fetch('https://raw.githubusercontent.com/roseblade9/it/main/news.json')
+        fetch('https://raw.githubusercontent.com/opornik-B-plenta/bruhhhhh/main/news.json')
             .then(response => response.json())
             .then(data => {
                 const content = document.getElementById('content');
